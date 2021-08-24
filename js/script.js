@@ -48,17 +48,19 @@ for ( var i = 0; i < names.length;i ++ /* fill in parts of the 'for' loop to loo
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
   // var firstLetter =
-  var letra = String.prototype.charAt(names);
-  console.log("A letra no índice 0 é '" + anyString.charAt(0)   + "'");
+var firstLetter = names[i].charAt(0);
+
+console.log(firstLetter);
 
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (letra === "j"/* fill in condition here */) {
-    return byeSpeaker.helloSpeaker;
-  } else {
-     return helloSpeaker.helloSpeaker;
-  }
+  
+//  if (letra === "j"/* fill in condition here */) {
+//    return byeSpeaker.;
+//  } else {
+//     return helloSpeaker.;
+//  }
 }
